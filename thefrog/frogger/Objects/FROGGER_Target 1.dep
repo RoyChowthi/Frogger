@@ -1,0 +1,47 @@
+Dependencies for Project 'FROGGER', Target 'Target 1': (DO NOT MODIFY !)
+F (.\FROGGER.c)(0x5CDA71F0)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\thefrog\frogger\RTE-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DLPC175x_6x-o .\objects\frogger.o --omf_browse .\objects\frogger.crf --depend .\objects\frogger.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.H)(0x5849A202)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF9EB2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x5849A202)
+I (GLCD.h)(0x5AA7D6DE)
+I (GLCD_UTILS.h)(0x5AA7D6DE)
+I (uart.h)(0x5AD123B6)
+F (.\GLCD_LPC1700.c)(0x5AA7D6DE)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\thefrog\frogger\RTE-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DLPC175x_6x-o .\objects\glcd_lpc1700.o --omf_browse .\objects\glcd_lpc1700.crf --depend .\objects\glcd_lpc1700.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\lpc17xx.h)(0x5849A202)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF9EB2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x5849A202)
+I (GLCD.h)(0x5AA7D6DE)
+I (Font_24x16.h)(0x5AA7D6DE)
+F (.\GLCD_UTILS.c)(0x5CC335EC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\thefrog\frogger\RTE-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DLPC175x_6x-o .\objects\glcd_utils.o --omf_browse .\objects\glcd_utils.crf --depend .\objects\glcd_utils.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AF9EB2)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x5849A202)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF9EB2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x5849A202)
+I (GLCD.h)(0x5AA7D6DE)
+I (GLCD_UTILS.h)(0x5AA7D6DE)
+F (.\uart.c)(0x5AD123B6)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\thefrog\frogger\RTE-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DLPC175x_6x-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\lpc17xx.h)(0x5849A202)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF9EB2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x5849A202)
+I (type.h)(0x5AD123B8)
+I (uart.h)(0x5AD123B6)
+F (RTE\Device\LPC1768\startup_LPC17xx.s)(0x5849A202)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I E:\thefrog\frogger\RTE-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 516" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\startup_lpc17xx.o --depend .\objects\startup_lpc17xx.d)
+F (RTE\Device\LPC1768\system_LPC17xx.c)(0x5849A202)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\thefrog\frogger\RTE-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DLPC175x_6x-o .\objects\system_lpc17xx.o --omf_browse .\objects\system_lpc17xx.crf --depend .\objects\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF9EB2)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x5849A202)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x5849A202)

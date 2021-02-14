@@ -1,0 +1,299 @@
+#include "LPC17xx.H"
+#include "GLCD.h"
+#include "GLCD_UTILS.h"
+
+void drawsquare(int cx, int cy, int width, unsigned short color) {
+	int x;
+	int y;
+	int a;
+	int b;
+	
+	GLCD_SetTextColor(color);
+	for(x = cx-(2.53*width); x < cx+(2.53*width); x++)
+			{
+				for(y = cy-width/3.4; y < cy+width/3.4; y++)
+				{
+					GLCD_PutPixel(x,y);
+		
+				}
+			}
+	
+}
+
+void drawsquare1(int cx, int cy, int width, unsigned short color) {
+	int x;
+	int y;
+	int a;
+	int b;
+	
+	GLCD_SetTextColor(color);
+	for(x = cx-(.3*width); x < cx+(.3*width); x++)
+			{
+				for(y = cy-width/3.3; y < cy+width/3.3; y++)
+				{
+					GLCD_PutPixel(x,y);
+		
+				}
+			}
+	
+}
+
+void bigboisquare(int cx, int cy, int width, unsigned short color) {
+	int x;
+	int y;
+	int a;
+	int b;
+	
+	GLCD_SetTextColor(color);
+	for(x = cx-(.71*width); x < cx+(.71*width); x++)
+			{
+				for(y = cy-(width/.43); y < cy+(width/.43); y++)
+				{
+					GLCD_PutPixel(x,y);
+		
+				}
+			}
+		}
+void frogsquare(int cx, int cy, int width, unsigned short color) {
+	int x;
+	int y;
+	int a;
+	int b;
+	
+	GLCD_SetTextColor(color);
+	for(x = cx-(.3*width); x < cx+(.3*width); x++)
+			{
+				for(y = cy-width/3.3; y < cy+width/3.3; y++)
+				{
+					GLCD_PutPixel(x,y);
+		
+				}
+			}
+	
+}
+
+void cars(int cx, int cy, int width, unsigned short color) {
+	int x;
+	int y;
+	int a;
+	int b;
+	
+	GLCD_SetTextColor(color);
+	for(x = cx-(.4*width); x < cx+(.4*width); x++)
+			{
+				for(y = cy-width/3.3; y < cy+width/3.3; y++)
+				{
+					GLCD_PutPixel(x,y);
+		
+				}
+			}
+		}
+void trucks(int cx, int cy, int width, unsigned short color) {
+	int x;
+	int y;
+	int a;
+	int b;
+	
+	GLCD_SetTextColor(color);
+	for(x = cx-(.7*width); x < cx+(.7*width); x++)
+			{
+				for(y = cy-width/3.3; y < cy+width/3.3; y++)
+				{
+					GLCD_PutPixel(x,y);
+		
+				}
+			}
+		}
+
+void logs(int cx, int cy, int width, unsigned short color) {
+	int x;
+	int y;
+	int a;
+	int b;
+	
+	GLCD_SetTextColor(color);
+	for(x = cx-(.7*width); x < cx+(.7*width); x++)
+			{
+				for(y = cy-width/3.3; y < cy+width/3.3; y++)
+				{
+					GLCD_PutPixel(x,y);
+		
+				}
+			}
+		}
+
+		void biglogs(int cx, int cy, int width, unsigned short color) {
+	int x;
+	int y;
+	int a;
+	int b;
+	
+	GLCD_SetTextColor(color);
+	for(x = cx-(2*width); x < cx+(2*width); x++)
+			{
+				for(y = cy-width/3.3; y < cy+width/3.3; y++)
+				{
+					GLCD_PutPixel(x,y);
+		
+				}
+			}
+		}
+		
+int main() {
+		int cx = 200;
+		int cy = 15;
+		int vx = 5;
+		int vy = 2;
+	  int ax = 200;
+		int ay = 120;
+		int bx = 88;
+		int by = 220;
+		int bx2 = 140;
+		int by2 = 220;
+		int bx3 = 190;
+		int by3 = 220;
+		int bx4 = 244;
+		int by4 = 220;
+		int bx5 = 305;
+		int by5 = 220;
+		int dx = 200;
+		int dy = 190;
+		int fx = 200;
+		int fy = 160;
+		int gx = 200;
+		int gy = 150;
+		int hx = 38;
+		int hy = 118;
+		int frogposx = 190;
+		int frogposy = 20;
+		int car1x = 220;
+		int car1y = 40;
+		int car2x = 90;
+		int car2y = 40;
+		int car3x = 160;
+		int car3y = 40;
+		int car4x = 280;
+		int car4y = 40;
+		int car5x = 280;
+		int car5y = 68;
+		int car6x = 190;
+		int car6y = 68;
+		int car7x = 100;
+		int car7y = 68;
+		int car8x = 130;
+		int car8y = 100;
+		int car9x = 200;
+		int car9y = 100;
+		int car10x = 270;
+		int car10y = 100;
+		int truck1x = 170;
+		int truck1y = 55;
+		int truck2x = 290;
+		int truck2y = 55;
+		int truck3x = 130;
+		int truck3y = 84;
+		int truck4x = 200;
+		int truck4y = 84;
+		int truck5x = 270;
+		int truck5y = 84;
+		int log1x = 130;
+		int log1y = 155;
+		int log2x = 250;
+		int log2y = 155;
+		int log3x = 250;
+		int log3y = 170;
+		int log4x = 130;
+		int log4y = 170;
+		int width = 50;
+		GLCD_Init();               //Initializes the LCD display
+    GLCD_Clear(Black);         //Clear display and set background color to black
+    GLCD_SetTextColor(White);   //Pixels will be drawn in blue
+  
+		
+		
+		
+	
+    while(1) { 			//An infinite loop is needed or else the program will just exit
+			
+			int k;
+			drawsquare(cx, cy, width, Purple);
+			drawsquare(ax, ay, width, Purple);
+			drawsquare(cx, by5, width, Yellow);
+			drawsquare1(bx, by, width, Green);
+			drawsquare1(bx2, by2, width, Green);
+			drawsquare1(bx3, by3, width, Green);
+			drawsquare1(bx4, by4, width, Green);
+			drawsquare1(bx5, by4, width, Green);
+			drawsquare(dx, dy, width, Blue);
+			drawsquare(fx, fy, width, Blue);
+			drawsquare(gx, gy, width, Blue);
+			frogsquare(frogposx, frogposy, width/3, Blue);
+			bigboisquare(hx, hy, width, LightGrey);
+			cars(car1x, car1y, width/3, White);
+			cars(car1x+(.3*width), car1y, width/3, Black);
+			cars(car2x, car2y, width/3, White);
+			cars(car2x+(.3*width), car2y, width/3, Black);
+			cars(car3x, car2y, width/3, White);
+			cars(car3x+(.3*width), car2y, width/3, Black);
+			cars(car4x, car4y, width/3, White);
+			cars(car4x+(.3*width), car4y, width/3, Black);
+			trucks(truck1x, truck1y, width/3, White);
+			trucks(truck1x-(.5*width), truck1y, width/3, Black);
+			trucks(truck2x, truck2y, width/3, White);
+			trucks(truck2x-(.5*width), truck2y, width/3, Black);
+			trucks(truck3x, truck3y, width/3, White);
+			trucks(truck3x-(.5*width), truck3y, width/3, Black);
+			trucks(truck4x, truck4y, width/3, White);
+			trucks(truck4x-(.5*width), truck4y, width/3, Black);
+			trucks(truck5x, truck5y, width/3, White);
+			trucks(truck5x-(.5*width), truck5y, width/3, Black);	
+			cars(car5x, car5y, width/3, White);
+			cars(car5x+(.3*width), car5y, width/3, Black);
+			cars(car6x, car6y, width/3, White);
+			cars(car6x+(.3*width), car6y, width/3, Black);
+			cars(car7x, car7y, width/3, White);
+			cars(car7x+(.3*width), car7y, width/3, Black);
+			cars(car8x, car8y, width/3, White);
+			cars(car8x+(.3*width), car8y, width/3, Black);
+			cars(car9x, car9y, width/3, White);
+			cars(car9x+(.3*width), car9y, width/3, Black);
+			cars(car10x, car10y, width/3, White);
+			cars(car10x+(.3*width), car10y, width/3, Black);
+			logs(log1x, log1y, width/3, Brown);
+			logs(log2x, log2y, width/3, Brown);
+			biglogs(log3x, log3y, width/3, Brown);
+			biglogs(log4x, log3y, width/3, Brown);
+			bigboisquare(hx, hy, width, LightGrey);
+			bigboisquare(hx, hy, width, LightGrey);
+			//first row of cars
+			car1x = car1x - vx;
+			car2x = car2x - vx;
+			car3x = car3x - vx;
+			car4x = car4x - vx;
+			//third row of cars
+			car5x = car5x - (vx);
+			car6x = car6x - (vx);
+			car7x = car7x - (vx);
+			//last row of cars
+			car8x = car8x - vx;
+			car9x = car9x - vx;
+			car10x = car10x - vx;
+			//second row of trucks
+			truck1x = truck1x + (vx);
+			truck2x = truck2x + (vx);
+			truck3x = truck3x + (vx);
+			//fourth row of trucks
+			truck4x = truck4x +vx ;
+			truck5x = truck5x + vx;
+			//first row of logs
+			log1x = log1x - vx;
+			log2x = log2x - vx;
+			//second row of logs
+			log3x = log3x + vx;
+			log4x = log4x + vx;
+			
+    }
+	
+	}
+
+
